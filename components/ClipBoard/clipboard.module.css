@@ -1,0 +1,30 @@
+.copyContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.375rem; /* rounded */
+  padding: 0.5rem; /* p-2 */
+  left: 30px;
+  bottom: 100px;
+}
+
+.copyContainer hr {
+  margin-top: 0.25rem; /* my-1 */
+}
+
+.copyHeading {
+  font-size: 1rem; /* text-base */
+}
+
+.copyDescription {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem; /* text-sm */
+}
+
+.copyIcon {
+  margin-left: 0.375rem; /* ml-3 */
+  cursor: pointer;
+}

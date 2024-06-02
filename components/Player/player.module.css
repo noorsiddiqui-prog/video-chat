@@ -1,0 +1,39 @@
+.playerContainer {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1.25rem; /* 5px */
+  height: 100%;
+}
+
+.active {
+  border-radius: 0.5rem; /* rounded-lg */
+  height: 100%;
+  width: 100%;
+}
+
+.notActive {
+  border-radius: 0.375rem; /* rounded-md */
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: min-content;
+  width: 200px;
+  box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
+}
+
+.icon {
+  color: white;
+  position: absolute;
+  right: 0.5rem; /* 2px */
+  bottom: 0.5rem; /* 2px */
+}
+
+.user {
+  color: white;
+}
+
+.notPlaying {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

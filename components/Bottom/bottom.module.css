@@ -1,0 +1,27 @@
+.bottomMenu {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+}
+
+.icon {
+  padding: 16px; /* p-4 */
+  border-radius: 9999px; /* rounded-full */
+  color: white;
+  cursor: pointer;
+  background-color: var(
+    --color-secondary
+  ); /* Replace with your color variable */
+
+  &:hover,
+  &.active {
+    background-color: var(
+      --color-buttonPrimary
+    ); /* Replace with your color variable */
+  }
+}
